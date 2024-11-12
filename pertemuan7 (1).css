@@ -1,0 +1,49 @@
+h1{
+    text-transform: uppercase;
+    font-family: jokerman 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: tomato;
+    letter-spacing: 5px; 
+}
+p{
+    text-align: justify;
+    color: rgb(245, 242, 240);
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    border:8px lined red
+}
+fieldset, legend{ /*grouping*/
+    border: 10px ridge aliceblue;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+}
+legend{
+    border: 10px ridge aliceblue;
+    padding: 5px 10px;
+    border-radius: 45px;
+    color: antiquewhite;
+}
+fieldset{
+    background-image: linier linear-gradient()
+}
+body{
+    margin: 0.5cm 2cm;
+}
+a:visited,a;link{
+    text-decoration: none;
+    border:1px solid rgb(236, 229, 229);
+    background-color: rgb(6, 6, 6);
+    padding: 2px 5px;
+    border-radius: 25px;
+    color:white;
+}
+a:hover{
+    text-decoration: wavy;
+    border:1px solid: rgb(55, 21, 220);
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
